@@ -1,7 +1,6 @@
 .hero {
   text-align: center;
   background-color: #fffdfd;
-  padding: 0px;
 }
 
 .hero h2 {
@@ -26,12 +25,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 70vh;
 
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 0 20px;
+  padding: 15px 20px;
 }
 
 
