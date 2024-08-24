@@ -1,0 +1,84 @@
+.hero {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.heroContent {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contactButton {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3498db;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.contactButton:hover {
+  background-color: #2980b9;
+}
+
+.socialMedia {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.socialMedia a {
+  display: inline-block;
+}
+
+
+.socialMedia img {
+  width: 50px;
+  height: 50px;
+  margin: 0px 40px;
+}
