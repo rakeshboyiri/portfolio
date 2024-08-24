@@ -19,8 +19,15 @@ function Projects() {
         </div>
         <div className={styles.projectItem}>
           <h3> My Portfolio</h3>
-          <p>It is a simple Portfolio website to showcase my skills and projects.</p>
-          <a href="[Link to live demo]">Live Demo</a>
+          <p>
+          <h2>Features:</h2> 
+<b>Projects:</b> Explore a diverse collection of my work, including web applications, design projects, and collaborative efforts.<br/>
+<b>Skills:</b> A detailed overview of my technical skills, tools, and technologies I specialize in, from HTML, CSS, and JavaScript to React, Node.js, and more.<br/>
+<b>Experience:</b> A timeline of my professional journey, showcasing key milestones, roles, and achievements in the tech industry. <br/>
+<b>Blog:</b> Dive into my thoughts and insights on the latest trends in web development, design, and technology. <br/>
+<b>Contact:</b> Get in touch with me for collaborations, freelance opportunities, or just to say hello!
+          </p>
+          <a href="https://rakesh-boyiri.onrender.com/">Live Demo</a>
         </div>
         {/* Add more project items as needed */}
       </div>
