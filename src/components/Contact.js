@@ -61,7 +61,7 @@ function Contact() {
             Message:
             <textarea name="message" value={formData.message} onChange={handleChange} required></textarea>
           </label>
-          <button type="submit">Send</button>
+          <button type="submit" disabled>Send</button>
         </form>
       )}
     </section>
